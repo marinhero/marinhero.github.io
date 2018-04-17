@@ -13,7 +13,7 @@ pygmentscodefences  = true
 
 [[menu.main]]
     name = "About"
-    url  = "https://github.com/marinhero/hugo-black-and-light-theme"
+    url  = "/pages/marin/"
 [[menu.main]]
     name = "Github"
     url  = "https://github.com/marinhero"
