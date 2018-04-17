@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on Marín Alcaraz</title>
+    <link>https://marinhero.com/tags/vim/</link>
+    <description>Recent content in Vim on Marín Alcaraz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Sep 2013 20:12:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://marinhero.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Django-Vim code autocomplete</title>
+      <link>https://marinhero.com/posts/django-vim-code-autocomplete/</link>
+      <pubDate>Sun, 08 Sep 2013 20:12:39 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/django-vim-code-autocomplete/</guid>
+      <description>Recently I came back to Django development and after a year my set of tools had change a lot. Mainly because vim became my main text editor.
+The following lines of code will turn vim into a more powerful tool to work with Django and Python, place them inside your .vimrc:
+&amp;lt;code&amp;gt;&amp;quot;--ENABLE PYTHON/DJANGO OMNICOMPLETE filetype plugin on set omnifunc=syntaxcomplete#Complete autocmd FileType python set omnifunc=pythoncomplete#Complete autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS autocmd FileType html set omnifunc=htmlcomplete#CompleteTags autocmd FileType css set omnifunc=csscomplete#CompleteCSS &amp;quot;--SuperTab Integration set completeopt-=previewtj let g:SuperTabDefaultCompletionType = &amp;quot;&amp;quot; let g:SuperTabDefaultCompletionType = &amp;quot;context&amp;quot; &amp;lt;/code&amp;gt;  First lines are activating the Omni Completion feature of Vim for those type of files and the last lines reference Super Tab which installed as a plugin.</description>
+    </item>
+    
+  </channel>
+</rss>

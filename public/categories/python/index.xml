@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Marín Alcaraz</title>
+    <link>https://marinhero.com/categories/python/</link>
+    <description>Recent content in Python on Marín Alcaraz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Oct 2013 16:13:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://marinhero.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Violent Python Chapter #1 Final</title>
+      <link>https://marinhero.com/posts/violent-python-chapter-1-final/</link>
+      <pubDate>Thu, 17 Oct 2013 16:13:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/violent-python-chapter-1-final/</guid>
+      <description>And that&amp;rsquo;s all for the chapter #1! The last exercise was fun as well. It is a Zip file cracker.
+&amp;lt;code&amp;gt; # Violent Python # Chapter #1 # Exercise #3 Zip file cracker # By: Marin Alcaraz import zipfile import sys def decrypt_file(filename): zFile = zipfile.ZipFile(filename) dict_file = open(&amp;quot;dict.txt&amp;quot;, &#39;r&#39;) print &amp;quot;[*] Decrypting file...&amp;quot; for line in dict_file.readlines(): password = line.strip(&#39;\n&#39;) try: zFile.extractall(pwd=password) return password except Exception, e: pass def main(): if (len(sys.</description>
+    </item>
+    
+    <item>
+      <title>Violent Python Chapter #1 Part 2</title>
+      <link>https://marinhero.com/posts/violent-python-chapter-1-part-2/</link>
+      <pubDate>Wed, 16 Oct 2013 15:09:34 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/violent-python-chapter-1-part-2/</guid>
+      <description>I&amp;rsquo;ve finished the second exercise from Violent Python&amp;rsquo;s Chapter #1 &amp;ldquo;The cuckoo&amp;rsquo;s egg&amp;rdquo;, it is a password decrypter. Here&amp;rsquo;s the code:
+&amp;lt;code&amp;gt; # # Violent Python Chapter #1 # The Cuckoo&#39;s Egg: a simple password decrypter # By: Marin Alcaraz # import crypt import hashlib def testPass(cryptPass): salt = cryptPass[0:2] dictFile = open(&#39;dictionary.txt&#39;, &#39;r&#39;) for word in dictFile.readlines(): word = word.strip(&#39;\n&#39;) cryptWord = crypt.crypt(word, salt) if (cryptWord == cryptPass or hashlib.</description>
+    </item>
+    
+    <item>
+      <title>Violent Python Chapter #1 Part 1</title>
+      <link>https://marinhero.com/posts/violent-python-chapter-1/</link>
+      <pubDate>Sun, 06 Oct 2013 18:04:36 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/violent-python-chapter-1/</guid>
+      <description>Violent Python Chapter #1
+I&amp;rsquo;ll try to post a some excerpts about the book Violent Python here.
+This posts references the first part of chapter #1.
+In chapter one you work on three mini projects:
+ Vulnerability Scanner The Cuckoo&amp;rsquo;s egg Zip file Cracker  The first exercise aims to build a vulnerability scanner. You are supposed to read full of vulnerable program definitions and compare it against services running in a remote server.</description>
+    </item>
+    
+  </channel>
+</rss>

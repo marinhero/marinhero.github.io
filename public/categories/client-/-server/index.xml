@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Client / Server on Marín Alcaraz</title>
+    <link>https://marinhero.com/categories/client-/-server/</link>
+    <description>Recent content in Client / Server on Marín Alcaraz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Jan 2015 20:39:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://marinhero.com/categories/client-/-server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Client / Server prototype in Go</title>
+      <link>https://marinhero.com/posts/a-client-server-prototype-in-go/</link>
+      <pubDate>Wed, 21 Jan 2015 20:39:20 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/a-client-server-prototype-in-go/</guid>
+      <description>I started my batch at Recurse Center two weeks ago. One of my goals for the batch is to become proficient in go. To get started I went through &amp;ldquo;A tour of Go&amp;rdquo;, after that I decided to work on my first Go project.
+The project was a Client / Server conversation, a limited conversation. As a client you are able to connect to an IP:PORT server and send three commands to the server: {1: ls, 2: who, 3: pwd}.</description>
+    </item>
+    
+  </channel>
+</rss>
