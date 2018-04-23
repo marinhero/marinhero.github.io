@@ -4,7 +4,6 @@ title = "Marín Alcaraz"
 canonifyurls = true
 languagecode = "en"
 theme = "black-and-light"
-
 pygmentsstyle       = "bw"
 pygmentscodefences  = true
 
