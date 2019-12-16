@@ -1,24 +1,4 @@
-baseURL = "https://marinhero.com"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Marín Alcaraz"
-canonifyurls = true
-languagecode = "en"
-theme = "black-and-light"
-pygmentsstyle       = "bw"
-pygmentscodefences  = true
-
-[params]
-  sitename = "Marín Alcaraz"
-
-[[menu.main]]
-    name = "About"
-    url  = "/pages/marin/"
-[[menu.main]]
-    name = "Github"
-    url  = "https://github.com/marinhero"
-[[menu.main]]
-    name = "Strava"
-    url  = "https://www.strava.com/athletes/9416766"
-[[menu.main]]
-    name = "Free Humans"
-    url  = "/pages/free-humans/"
+title = "Marin Alcaraz"
+theme="minimal-bootstrap-hugo-theme"
