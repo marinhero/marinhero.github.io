@@ -19,4 +19,6 @@ pygmentscodefences  = true
 [[menu.main]]
     name = "Strava"
     url  = "https://www.strava.com/athletes/9416766"
-
+[[menu.main]]
+    name = "Free Humans"
+    url  = "/pages/free-humans/"
