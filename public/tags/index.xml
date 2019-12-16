@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Marín Alcaraz</title>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Code</title>
+      <title>code</title>
       <link>https://marinhero.com/tags/code/</link>
       <pubDate>Sun, 08 Sep 2013 20:12:39 +0000</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Django</title>
+      <title>django</title>
       <link>https://marinhero.com/tags/django/</link>
       <pubDate>Sun, 08 Sep 2013 20:12:39 +0000</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Python</title>
+      <title>python</title>
       <link>https://marinhero.com/tags/python/</link>
       <pubDate>Sun, 08 Sep 2013 20:12:39 +0000</pubDate>
       
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Tip</title>
+      <title>tip</title>
       <link>https://marinhero.com/tags/tip/</link>
       <pubDate>Sun, 08 Sep 2013 20:12:39 +0000</pubDate>
       
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>Vim</title>
+      <title>vim</title>
       <link>https://marinhero.com/tags/vim/</link>
       <pubDate>Sun, 08 Sep 2013 20:12:39 +0000</pubDate>
       
