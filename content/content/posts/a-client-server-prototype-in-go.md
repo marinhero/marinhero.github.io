@@ -1,6 +1,6 @@
 ---
 author: Marin
-comments: true
+comments: false
 date: 2015-01-21 20:39:20+00:00
 layout: post
 link: http://marinhero.com/a-client-server-prototype-in-go/

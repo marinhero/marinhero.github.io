@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://marinhero.com/"
 languageCode = "en-us"
 title = "Marin Alcaraz"
 theme="minimal-bootstrap-hugo-theme"

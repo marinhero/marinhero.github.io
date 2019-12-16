@@ -1,6 +1,6 @@
 ---
 author: Marin
-comments: true
+comments: false
 date: 2013-09-08 20:12:39+00:00
 layout: post
 link: http://marinhero.com/django-vim-code-autocomplete/

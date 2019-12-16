@@ -1,6 +1,6 @@
 ---
 author: Marin
-comments: true
+comments: false
 date: 2013-10-17 16:13:00+00:00
 layout: post
 link: http://marinhero.com/violent-python-chapter-1-final/

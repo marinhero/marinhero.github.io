@@ -1,6 +1,6 @@
 ---
 author: Marin
-comments: true
+comments: false
 date: 2015-01-23 20:59:02+00:00
 layout: post
 link: http://marinhero.com/an-important-note-about-slices-in-go/
