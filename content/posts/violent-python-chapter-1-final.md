@@ -14,18 +14,16 @@ categories:
 
 And that's all for the chapter #1! The last exercise was fun as well. It is a Zip file cracker.
 
-    
-    
-    <code>
+```python
     # Violent Python
     # Chapter #1
     # Exercise #3 Zip file cracker
     # By: Marin Alcaraz
-    
+
     import zipfile
     import sys
-    
-    
+
+
     def decrypt_file(filename):
         zFile = zipfile.ZipFile(filename)
         dict_file = open("dict.txt", 'r')
@@ -37,9 +35,9 @@ And that's all for the chapter #1! The last exercise was fun as well. It is a Zi
                 return password
             except Exception, e:
                 pass
-    
+
     def main():
-    
+
         if (len(sys.argv) == 2):
             filename = sys.argv[1]
             p = decrypt_file(filename)
@@ -48,8 +46,7 @@ And that's all for the chapter #1! The last exercise was fun as well. It is a Zi
         else:
             print "Usage: python py-pass.py file.zip"
             exit(0)
-    
+
     if __name__ == '__main__':
         main()
-    </code>
-    
+```

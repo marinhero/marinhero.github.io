@@ -21,27 +21,28 @@ Recently I came back to Django development and after a year my set of tools had 
 
 The following lines of code will turn vim into a more powerful tool to work with Django and Python, place them inside your `.vimrc`:
 
-    <code>"--ENABLE PYTHON/DJANGO OMNICOMPLETE
-    
+```vim
+    "--ENABLE PYTHON/DJANGO OMNICOMPLETE
+
     filetype plugin on
     set omnifunc=syntaxcomplete#Complete
     autocmd FileType python set omnifunc=pythoncomplete#Complete
     autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
     autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
     autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-    
+
     "--SuperTab Integration
     set completeopt-=previewtj
     let g:SuperTabDefaultCompletionType = ""
     let g:SuperTabDefaultCompletionType = "context"
-    </code>
-
+```
 
 First lines are activating the Omni Completion feature of Vim for those type of files and the last lines reference [Super Tab](https://github.com/ervandew/supertab) which installed as a plugin.
 
 Now we will define a wrapper, paste this lines inside a file called djvim (DON'T FORGET TO MODIFY YOUR PROJECT PATH):
 
-    <code>PROJECT_PATH="/home/marin/Code"
+```bash
+    PROJECT_PATH="/home/marin/Code"
     if [ $# -eq 2 ]
     then
             export PYTHONPATH="$PROJECT_PATH/$1"
@@ -50,21 +51,19 @@ Now we will define a wrapper, paste this lines inside a file called djvim (DON'T
     else
             echo "Usage: djvim [Project] [File]"
     fi
-    </code>
-
+```
 
 then make the file executable and move it to your /bin folder, that will do the trick. Test djvim with:
 
-    
-    <code>user@machine:$ djvim myproject models.py
-    </code>
 
+```bash
+    user@machine:$ djvim myproject models.py
+```
 
 and inside Vim type:
 
-    
-    <code>:python from django import db
-    </code>
-
+```vim
+:python from django import db
+```
 
 Then test the autocomplete with some functions, launch it with the Tab key.

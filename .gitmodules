@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:marinhero/marinhero.github.io.git
 	branch = master
+[submodule "themes/black-and-light"]
+	path = themes/black-and-light
+	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git

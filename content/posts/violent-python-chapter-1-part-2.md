@@ -15,16 +15,16 @@ categories:
 I've finished the second exercise from Violent Python's Chapter #1 "The cuckoo's egg", it is a password decrypter.
 Here's the code:
 
-    <code>
+```python
     #
     # Violent Python Chapter #1
     # The Cuckoo's Egg: a simple password decrypter
     # By: Marin Alcaraz
     #
-    
+
     import crypt
     import hashlib
-    
+
     def testPass(cryptPass):
         salt = cryptPass[0:2]
         dictFile = open('dictionary.txt', 'r')
@@ -36,7 +36,7 @@ Here's the code:
                 return
         print "[-] Password not found.\n"
         return
-    
+
     def main():
         passFile = open("passwords.txt", 'r')
         for line in passFile.readlines():
@@ -46,8 +46,7 @@ Here's the code:
                 print "[*] Cracking Password for: user[" + user + "]\n"
                 testPass(cryptPass)
         return
-    
+
     if __name__ == "__main__":
         main()
-    </code>
-    
+```

@@ -24,9 +24,10 @@ So, what challenges I've faced during this project? being my first project in go
 
 Check it out:
 
+```go
     readed := 0
     response := make([]byte, 8)
-    
+
     for {
         //Read from server
         readed, err = con.Read(response)
@@ -48,5 +49,5 @@ Check it out:
         }
         response = make([]byte, 8)
     }
-
+```
 Cheers!

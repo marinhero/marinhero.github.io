@@ -28,17 +28,17 @@ In chapter one you work on three mini projects:
 The first exercise aims to build a vulnerability scanner. You are supposed to read full of vulnerable program definitions and compare
 it against services running in a remote server.
 
-    <code>
+```python
     #
     # Violent Python Chapter #1
     # Vuln Scanner
     # By: Marin Alcaraz
     #
-    
+
     import sys
     import os
     import socket
-    
+
     def retBanner(ip, port):
         try:
             socket.setdefaulttimeout(2)
@@ -48,7 +48,7 @@ it against services running in a remote server.
             return banner
         except Exception, e:
            return  str(e)
-    
+
     def checkFile(filename):
         try:
             if not os.path.isfile(filename):
@@ -61,8 +61,8 @@ it against services running in a remote server.
         except Exception, e:
             print str(e)
             return -1
-    
-    
+
+
     def checkVulns(banner, filename):
         print "[+] Reading Vulnerable Banner list from: " + filename
         f = checkFile(filename)
@@ -73,7 +73,7 @@ it against services running in a remote server.
             else:
                 print '[-] FTP Server is not vulnerable'
         return
-    
+
     def main():
         portList = [21, 22, 25, 80, 110, 443]
         if (len(sys.argv) == 2):
@@ -88,11 +88,11 @@ it against services running in a remote server.
                     print '[+] ' + ip + ': ' + banner
                     if (checkVulns(banner, filename) == -1):
                         return
-    
-    
+
+
     if __name__ == '__main__':
         main()
-    </code>
+```
 
 
 Notes:
