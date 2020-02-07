@@ -28,9 +28,9 @@ theme = ["marin", "terminal"]
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/pages/marin"
+        # identifier = "about"
+        # name = "About"
+        # url = "/pages/marin"
       # [[languages.en.menu.main]]
       #   identifier = "projects"
       #   name = "Projects"
