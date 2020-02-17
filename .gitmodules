@@ -1,10 +1,7 @@
-[submodule "themes/minimal-bootstrap-hugo-theme"]
-	path = themes/minimal-bootstrap-hugo-theme
-	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git
 [submodule "public"]
 	path = public
 	url = git@github.com:marinhero/marinhero.github.io.git
 	branch = master
-[submodule "themes/black-and-light"]
-	path = themes/black-and-light
-	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
