@@ -7,6 +7,7 @@ link: http://marinhero.com/violent-python-chapter-1/
 slug: violent-python-chapter-1
 title: 'Violent Python Chapter #1 Part 1'
 wordpress_id: 13
+draft: true
 categories:
 - Code
 - Python

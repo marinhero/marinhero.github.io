@@ -7,6 +7,7 @@ link: http://marinhero.com/a-client-server-prototype-in-go/
 slug: a-client-server-prototype-in-go
 title: A Client / Server prototype in Go
 wordpress_id: 71
+draft: true
 categories:
 - client / server
 - Go

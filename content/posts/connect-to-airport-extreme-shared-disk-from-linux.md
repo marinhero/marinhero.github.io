@@ -7,6 +7,7 @@ link: http://marinhero.com/connect-to-airport-extreme-shared-disk-from-linux/
 slug: connect-to-airport-extreme-shared-disk-from-linux
 title: Connect to Airport Extreme Shared Disk from Linux
 wordpress_id: 41
+draft: true
 categories:
 - Airport Extreme
 - Apple
@@ -22,14 +23,14 @@ Airport Extreme allows you to share a hard drive over the network, since one of 
 
 Check it out:
 
-    
+
     sudo mkdir /media/airport
     sudo vim /etc/fstab
 
 
 Add the following information at the end of that file (_in one line_):
-    
-    //YOUR.AIPORT.IP.ADDR/YOURAIRPORTWORKDIR 
+
+    //YOUR.AIPORT.IP.ADDR/YOURAIRPORTWORKDIR
     /media/airport/ cifs auto,
     iocharset=utf8,nobrl,username=AirportUsername,
     password=AirportPass,

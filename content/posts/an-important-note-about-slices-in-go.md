@@ -7,6 +7,7 @@ link: http://marinhero.com/an-important-note-about-slices-in-go/
 slug: an-important-note-about-slices-in-go
 title: An important note about slices in Go
 wordpress_id: 78
+draft: true
 categories:
 - Go
 - golang

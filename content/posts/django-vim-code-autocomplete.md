@@ -7,6 +7,7 @@ link: http://marinhero.com/django-vim-code-autocomplete/
 slug: django-vim-code-autocomplete
 title: Django-Vim code autocomplete
 wordpress_id: 7
+draft: true
 categories:
 - Code
 tags:

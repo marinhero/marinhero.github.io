@@ -7,6 +7,7 @@ link: http://marinhero.com/sieve-of-eratosthenes/
 slug: sieve-of-eratosthenes
 title: Sieve of Eratosthenes
 wordpress_id: 117
+draft: true
 categories:
 - Algorithms
 - ruby
