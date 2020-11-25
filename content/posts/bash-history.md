@@ -4,7 +4,7 @@ title = "Never Lose Another Bash Command Ever Again!"
 date = "2020-11-21"
 layout = "post"
 author = "Marín"
-tags = ["bash"]
+tags = ["bash", "tooling"]
 keywords = ["bash", "history"]
 showFullContent = false
 +++
@@ -25,7 +25,7 @@ export PROMPT_COMMAND='if [ "$(id -u)" -ne 0  ]; then echo "$(date "+%Y-%m-%d.%H
 
 What I like the most about this is that files are organized by date. This makes it easy to search for commands. For example, let’s say that I’m going back to work on a Git repository that I worked on nine months ago. I need to run a command that made my local build pass and nine months ago I found the fix after troubleshooting for an hour. Today I don’t remember that command! All I remember about it is that it had an `“add_missing”` somewhere. With the local logs I just created I can cd into the .logs directory and  run [the silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) like this:
 
-![Imgur](https://i.imgur.com/A0ydu0d.mp4)
+[![asciicast](https://asciinema.org/a/372356.svg)](https://asciinema.org/a/372356)
 
 And boom! I’ll get all the commands that match that pattern and I’m swiftly back on track to my work. Useful, right?
 

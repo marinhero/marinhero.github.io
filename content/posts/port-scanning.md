@@ -3,8 +3,8 @@ title = "Ports and Port Scanners"
 date = "2020-02-28"
 layout = "post"
 author = "Marín"
-tags = ["InfoSec", "golang"]
-keywords = ["Port scanning", "InfoSec"]
+tags = ["Information-Security", "Golang"]
+keywords = ["Port-scanning", "InfoSec"]
 description = "An explanation on what's a port and how to scan for ports"
 showFullContent = false
 +++
