@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information-Security on Marín&#39;s - Blog</title>
+    <link>https://marinhero.com/tags/information-security/</link>
+    <description>Recent content in Information-Security on Marín&#39;s - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://marinhero.com/tags/information-security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ports and Port Scanners</title>
+      <link>https://marinhero.com/posts/port-scanning/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/port-scanning/</guid>
+      <description>Have you ever wondered how an attacker knows which services to target? How can they determine which exploit they should use? port scanning is what gives the initial pieces of intel to them. It’s part of the process known as fingerprinting that will determine what in a system has the potential to be exploited. Let me tell you a story about what’s possible with this information:
+In April 2017, The Shadow Brokers leaked an exploit developed by the NSA named EternalBlue.</description>
+    </item>
+    
+  </channel>
+</rss>
