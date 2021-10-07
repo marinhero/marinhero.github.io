@@ -17,5 +17,4 @@ When I'm away from my keyboard you can find me singing, dancing Rueda de Casino,
 
 
 ## About the blog
-
 The blog engine is [Hugo](https://gohugo.io/) and the theme was made by [panr](https://twitter.com/panr) and modified by me. Original theme available [here](https://github.com/panr/hugo-theme-terminal). Hosted in [GitHub](https://github.com) using [GitHub Pages](https://pages.github.com/).
