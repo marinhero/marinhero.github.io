@@ -7,9 +7,9 @@ Hello! I'm Marín Alcaraz. Right now, I work as a Software Engineer for [Segment
 
 I studied Computer Systems Engineering at [ITESM](https://tec.mx) with a brief, but awesome stint at [EPITECH](http://www.epitech.eu).
 
-After, college I went to the [Recurse Center](https://recurse.com) and had the best time of my life building cool software projects, like a Dropbox clone or my own ad-blocker.
+After, college I went to the [Recurse Center](https://recurse.com) and had the time of my life building cool software projects, like a Dropbox clone or my own ad-blocker.
 
-I moved to The Bay Area in 2016 to join Wootric as their 2nd hire. I worked there as a Software Engineer until the company was acquired in 2020.
+I moved to The Bay Area in 2015 to join Wootric as their 2nd hire. I worked there as a Software Engineer until the company was acquired in 2020.
 
 I'm passionate about Infrastructure, Information Security, Ruby, and TypeScript.
 
