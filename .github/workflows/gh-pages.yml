@@ -28,6 +28,4 @@ jobs:
         if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.PAGES }}
-          external_repository: marinhero/marinhero.github.io
           publish_dir: ./
-          publish_branch: master
