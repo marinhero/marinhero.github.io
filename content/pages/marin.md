@@ -3,7 +3,7 @@ title: "About me"
 draft: false
 ---
 
-Hello! I'm Marín Alcaraz. Right now, I work as a Software Engineer for [Segment](https://segment.com).
+Hello! I'm Marín Alcaraz. Right now, I work as a Senior Software Engineer for [Twilio - Segment](https://segment.com).
 
 I studied Computer Systems Engineering at [ITESM](https://tec.mx) with a brief, but awesome stint at [EPITECH](http://www.epitech.eu).
 
