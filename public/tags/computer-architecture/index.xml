@@ -1,3 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer Architecture on Marín's - Blog</title><link>https://marinhero.com/tags/computer-architecture/</link><description>Recent content in Computer Architecture on Marín's - Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/tags/computer-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>x86, x64, ARM? I Just Want to Download my Program!</title><link>https://marinhero.com/posts/architectures/</link><pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate><guid>https://marinhero.com/posts/architectures/</guid><description>More often than not, when I go to a website to download a program I find a screen like this.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Architecture on Marín&#39;s - Blog</title>
+    <link>https://marinhero.com/tags/computer-architecture/</link>
+    <description>Recent content in Computer Architecture on Marín&#39;s - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/tags/computer-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>x86, x64, ARM? I Just Want to Download my Program!</title>
+      <link>https://marinhero.com/posts/architectures/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/architectures/</guid>
+      <description>More often than not, when I go to a website to download a program I find a screen like this.
 These are some of the questions that come to my mind.
-Why are there so many options? Why don&amp;rsquo;t we just create one universal binary format so we don&amp;rsquo;t have to decide this? Aren&amp;rsquo;t computers supposed to just speak in zeroes and ones? What happens if I download the wrong binary?</description></item></channel></rss>
+Why are there so many options? Why don&amp;rsquo;t we just create one universal binary format so we don&amp;rsquo;t have to decide this? Aren&amp;rsquo;t computers supposed to just speak in zeroes and ones? What happens if I download the wrong binary?</description>
+    </item>
+    
+  </channel>
+</rss>

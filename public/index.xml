@@ -1,7 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marín's - Blog</title><link>https://marinhero.com/</link><description>Recent content on Marín's - Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Never Lose Another Bash Command Ever Again!</title><link>https://marinhero.com/posts/bash-history/</link><pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate><guid>https://marinhero.com/posts/bash-history/</guid><description>Every once in awhile, I would find a Bash shell command that gets me out of a big problem. After hours of troubleshooting, I would find THE command, run it, and then I would move on and forget about that command. The next time I faced the same issue, I might remember the command, but if not I would try to get it from my Bash history using the command:$&amp;gt; history.</description></item><item><title>x86, x64, ARM? I Just Want to Download my Program!</title><link>https://marinhero.com/posts/architectures/</link><pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate><guid>https://marinhero.com/posts/architectures/</guid><description>More often than not, when I go to a website to download a program I find a screen like this.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marín&#39;s - Blog</title>
+    <link>https://marinhero.com/</link>
+    <description>Recent content on Marín&#39;s - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do’s and don’ts for a successful SDE internship</title>
+      <link>https://marinhero.com/posts/segment-internship/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/segment-internship/</guid>
+      <description>Last summer, I had the opportunity to mentor an intern at Twilio Segment. This was a first for me and I really enjoyed it. The experience opened a new avenenue for my career that I want to keep exploring.
+By the end of the internship, Kevin (the intern) and I co-wrote a blogpost with some of our learnings and titled it do’s and don’ts for a successful SDE internship go check it out!</description>
+    </item>
+    
+    <item>
+      <title>Tetris, in TypeScript</title>
+      <link>https://marinhero.com/posts/typescript-tetris/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/typescript-tetris/</guid>
+      <description>With the intention of getting more familiarized with TypeScript, I decided to start a new project. It&amp;rsquo;s been many years since the last time I made a game from scrath so it seemed fitting to give that a go. I chose Tetris because it&amp;rsquo;s a well known game, with a defined set of problems and functionality. All I had to worry about was to code their solutions.
+The TypeScript Lesson I did get more familiar with TypeScript, some of its strengths, caveats and tooling.</description>
+    </item>
+    
+    <item>
+      <title>Never Lose Another Bash Command Ever Again!</title>
+      <link>https://marinhero.com/posts/bash-history/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/bash-history/</guid>
+      <description>Every once in awhile, I would find a Bash shell command that gets me out of a big problem. After hours of troubleshooting, I would find THE command, run it, and then I would move on and forget about that command. The next time I faced the same issue, I might remember the command, but if not I would try to get it from my Bash history using the command:$&amp;gt; history.</description>
+    </item>
+    
+    <item>
+      <title>x86, x64, ARM? I Just Want to Download my Program!</title>
+      <link>https://marinhero.com/posts/architectures/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/architectures/</guid>
+      <description>More often than not, when I go to a website to download a program I find a screen like this.
 These are some of the questions that come to my mind.
-Why are there so many options? Why don&amp;rsquo;t we just create one universal binary format so we don&amp;rsquo;t have to decide this? Aren&amp;rsquo;t computers supposed to just speak in zeroes and ones? What happens if I download the wrong binary?</description></item><item><title>Ports and Port Scanners</title><link>https://marinhero.com/posts/port-scanning/</link><pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate><guid>https://marinhero.com/posts/port-scanning/</guid><description>Have you ever wondered how an attacker knows which services to target? How can they determine which exploit they should use? port scanning is what gives the initial pieces of intel to them. It’s part of the process known as fingerprinting that will determine what in a system has the potential to be exploited. Let me tell you a story about what’s possible with this information:
-In April 2017, The Shadow Brokers leaked an exploit developed by the NSA named EternalBlue.</description></item><item><title>About me</title><link>https://marinhero.com/pages/marin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marinhero.com/pages/marin/</guid><description>Hello! I&amp;rsquo;m Marín Alcaraz. Right now, I work as a Software Engineer for Segment.
+Why are there so many options? Why don&amp;rsquo;t we just create one universal binary format so we don&amp;rsquo;t have to decide this? Aren&amp;rsquo;t computers supposed to just speak in zeroes and ones? What happens if I download the wrong binary?</description>
+    </item>
+    
+    <item>
+      <title>Ports and Port Scanners</title>
+      <link>https://marinhero.com/posts/port-scanning/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/port-scanning/</guid>
+      <description>Have you ever wondered how an attacker knows which services to target? How can they determine which exploit they should use? port scanning is what gives the initial pieces of intel to them. It’s part of the process known as fingerprinting that will determine what in a system has the potential to be exploited. Let me tell you a story about what’s possible with this information:
+In April 2017, The Shadow Brokers leaked an exploit developed by the NSA named EternalBlue.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://marinhero.com/pages/marin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/pages/marin/</guid>
+      <description>Hello! I&amp;rsquo;m Marín Alcaraz. Right now, I work as a Senior Software Engineer for Twilio - Segment.
 I studied Computer Systems Engineering at ITESM with a brief, but awesome stint at EPITECH.
-After, college I went to the Recurse Center and had the best time of my life building cool software projects, like a Dropbox clone or my own ad-blocker.
-I moved to The Bay Area in 2016 to join Wootric as their 2nd hire.</description></item></channel></rss>
+After, college I went to the Recurse Center and had the time of my life building cool software projects, like a Dropbox clone or my own ad-blocker.
+I moved to The Bay Area in 2015 to join Wootric as their 2nd hire.</description>
+    </item>
+    
+  </channel>
+</rss>

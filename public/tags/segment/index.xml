@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segment on Marín&#39;s - Blog</title>
+    <link>https://marinhero.com/tags/segment/</link>
+    <description>Recent content in Segment on Marín&#39;s - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/tags/segment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do’s and don’ts for a successful SDE internship</title>
+      <link>https://marinhero.com/posts/segment-internship/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marinhero.com/posts/segment-internship/</guid>
+      <description>Last summer, I had the opportunity to mentor an intern at Twilio Segment. This was a first for me and I really enjoyed it. The experience opened a new avenenue for my career that I want to keep exploring.
+By the end of the internship, Kevin (the intern) and I co-wrote a blogpost with some of our learnings and titled it do’s and don’ts for a successful SDE internship go check it out!</description>
+    </item>
+    
+  </channel>
+</rss>
