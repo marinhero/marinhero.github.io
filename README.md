@@ -1,3 +1,1 @@
-# marinhero.github.io
-
-Marin's blog -> marinhero.com
+# (Marin's blog)[https://marinhero.com]
