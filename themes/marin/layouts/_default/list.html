@@ -1,24 +1,33 @@
 {{ define "main" }}
 <div class="posts">
-  {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
-  {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
-
-  {{ $PageContext := . }}
-  {{ if .IsHome }}
-    {{ $PageContext = .Site }}
-  {{ end }}
-  {{ $paginator := .Paginate (where $PageContext.RegularPages "Type" $contentTypeName) }}
-
-  {{ range $paginator.Pages }}
-  <div class="post on-list">
-    <div class="post-title">
-      <h1 class="post-title-header"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
-      <span class="post-date">
-        {{ .Date.Format "2006-01-02" }}
+    <article>
+        <header>
+            <h1 class="post-title-header"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+        </header>
+        <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+        {{.Content}}
+    </article>
+    <ul>
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Pages }}
+    <div class="post on-list">
+      <div class="post-title">
+        <h1 class="post-title-header"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+        <span class="post-date">
+          {{ .Date.Format "2006-01-02" }}
+        </span>
+      </div>
+      {{ if .Params.tags }}
+      <span class="post-tags">
+        {{ range .Params.tags }}
+        #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+          {{- . -}}
+        </a>&nbsp;
+        {{ end }}
       </span>
+    {{ end }}
     </div>
+    {{ end }}
+    </ul>
   </div>
-  {{ end }}
-  {{ partial "pagination.html" . }}
-</div>
 {{ end }}

@@ -23,7 +23,7 @@ theme = ["marin", "terminal"]
     readOtherPosts = "Read other posts"
 
     [params.twitter]
-      creator = "marinftw"
+      creator = "marinhero"
       site = "https://marinhero.com"
 
     [languages.en.params.logo]
@@ -33,10 +33,9 @@ theme = ["marin", "terminal"]
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "About Me"
         url = "/pages/marin"
-      # [[languages.en.menu.main]]
-      #   identifier = "projects"
-      #   name = "Projects"
-      #   url = "/projects"
-      # On hold till I finish the cleanup
+      [[languages.en.menu.main]]
+        identifier = "adventure"
+        name = "Adventure Blog"
+        url = "/adventure"
