@@ -3,7 +3,7 @@ title: "About me"
 draft: false
 ---
 
-Hello! I'm Marín Alcaraz. Right now, I work as a Senior Software Engineer for [Twilio - Segment](https://segment.com).
+Hello! I'm Marín Alcaraz. I work as a Senior Software Engineer for [Twilio - Segment](https://segment.com).
 
 I studied Computer Systems Engineering at [ITESM](https://tec.mx) with a brief, but awesome stint at [EPITECH](http://www.epitech.eu).
 
@@ -13,7 +13,7 @@ I moved to The Bay Area in 2015 to join Wootric as their 2nd hire. I worked ther
 
 I'm passionate about Infrastructure, Information Security, Ruby, and TypeScript.
 
-When I'm away from my keyboard you can find me singing, dancing Rueda de Casino, or [riding](https://www.strava.com/athletes/9416766) my bike. I dream of riding the [Baja Divide](https://bajadivide.com/) one day.
+When I'm away from my keyboard you can find me singing, dancing [Rueda de Casino](https://en.wikipedia.org/wiki/Rueda_de_Casino), or [riding](https://www.strava.com/athletes/9416766) my bike. I dream of riding the [Baja Divide](https://bajadivide.com/) one day.
 
 
 ## About the blog
