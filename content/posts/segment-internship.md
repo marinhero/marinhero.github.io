@@ -12,3 +12,5 @@ Last summer, I had the opportunity to mentor an intern at Twilio Segment. This w
 The experience opened a new avenenue for my career that I want to keep exploring.
 
 By the end of the internship, Kevin (the intern) and I co-wrote a blogpost with some of our learnings and titled it [do’s and don’ts for a successful SDE internship](https://segment.com/blog/dos-and-donts-for-successful-sde-internship/) go check it out!
+
+[Link to the article](https://segment.com/blog/dos-and-donts-for-successful-sde-internship).
