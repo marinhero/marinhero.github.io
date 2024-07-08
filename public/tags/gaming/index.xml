@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gaming on Marín&#39;s - Blog</title>
-    <link>https://marinhero.com/tags/gaming/</link>
+    <link>http://localhost:1313/tags/gaming/</link>
     <description>Recent content in Gaming on Marín&#39;s - Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tetris, in TypeScript</title>
-      <link>https://marinhero.com/posts/typescript-tetris/</link>
+      <link>http://localhost:1313/posts/typescript-tetris/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/posts/typescript-tetris/</guid>
-      <description>With the intention of getting more familiarized with TypeScript, I decided to start a new project. It&amp;rsquo;s been many years since the last time I made a game from scrath so it seemed fitting to give that a go. I chose Tetris because it&amp;rsquo;s a well known game, with a defined set of problems and functionality. All I had to worry about was to code their solutions.
-The TypeScript Lesson I did get more familiar with TypeScript, some of its strengths, caveats and tooling.</description>
+      <guid>http://localhost:1313/posts/typescript-tetris/</guid>
+      <description>With the intention of getting more familiarized with TypeScript, I decided to start a new project. It&amp;rsquo;s been many years since the last time I made a game from scrath so it seemed fitting to give that a go. I chose Tetris because it&amp;rsquo;s a well known game, with a defined set of problems and functionality. All I had to worry about was to code their solutions.&#xA;The TypeScript Lesson I did get more familiar with TypeScript, some of its strengths, caveats and tooling.</description>
     </item>
-    
   </channel>
 </rss>

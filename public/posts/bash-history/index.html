@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>Never Lose Another Bash Command Ever Again! :: Marín&#39;s - Blog</title>
   
@@ -9,30 +9,33 @@
 <meta name="description" content="Every once in awhile, I would find a Bash shell command that gets me out of a big problem. After hours of troubleshooting, I would find THE command, run it, and then I would move on and forget about that command. The next time I faced the same issue, I might remember the command, but if not I would try to get it from my Bash history using the command:$&amp;gt; history."/>
 <meta name="keywords" content="bash, history"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="https://marinhero.com/posts/bash-history/" />
+<link rel="canonical" href="http://localhost:1313/posts/bash-history/" />
+
+
+  
 
 
 
 
-<link rel="stylesheet" href="https://marinhero.com/assets/style.css">
+<link rel="stylesheet" href="http://localhost:1313/assets/style.css">
 
-  <link rel="stylesheet" href="https://marinhero.com/assets/blue.css">
-
-
+  <link rel="stylesheet" href="http://localhost:1313/assets/blue.css">
 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://marinhero.com/img/apple-touch-icon-144-precomposed.png">
 
-<link rel="shortcut icon" href="https://marinhero.com/img/favicon/blue.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:1313/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="http://localhost:1313/img/favicon/blue.png">
 
 
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Never Lose Another Bash Command Ever Again! :: Marín&#39;s - Blog — " />
 <meta name="twitter:description" content="Every once in awhile, I would find a Bash shell command that gets me out of a big problem. After hours of troubleshooting, I would find THE command, run it, and then I would move on and forget about that command. The next time I faced the same issue, I might remember the command, but if not I would try to get it from my Bash history using the command:$&amp;gt; history." />
-<meta name="twitter:site" content="https://marinhero.com/" />
+<meta name="twitter:site" content="http://localhost:1313/" />
 <meta name="twitter:creator" content="Marín" />
 <meta name="twitter:image" content="">
 
@@ -41,7 +44,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Never Lose Another Bash Command Ever Again! :: Marín&#39;s - Blog — ">
 <meta property="og:description" content="Every once in awhile, I would find a Bash shell command that gets me out of a big problem. After hours of troubleshooting, I would find THE command, run it, and then I would move on and forget about that command. The next time I faced the same issue, I might remember the command, but if not I would try to get it from my Bash history using the command:$&amp;gt; history." />
-<meta property="og:url" content="https://marinhero.com/posts/bash-history/" />
+<meta property="og:url" content="http://localhost:1313/posts/bash-history/" />
 <meta property="og:site_name" content="Never Lose Another Bash Command Ever Again!" />
 <meta property="og:image" content="">
 <meta property="og:image:width" content="2048">
@@ -57,7 +60,8 @@
 
 
 
-<link rel="stylesheet" href="https://marinhero.com/marin.css">
+<link rel="stylesheet" href="http://localhost:1313/marin.css">
+
 
 </head>
 <body class="">
@@ -86,6 +90,10 @@
           <li><a href="/pages/marin">About</a></li>
         
       
+        
+          <li><a href="/photos">Photos</a></li>
+        
+      
       
     
 
@@ -96,6 +104,10 @@
     
       
         <li><a href="/pages/marin">About</a></li>
+      
+    
+      
+        <li><a href="/photos">Photos</a></li>
       
     
     
@@ -110,7 +122,7 @@
     
 <div class="post">
   <h1 class="post-title">
-    <a href="https://marinhero.com/posts/bash-history/">Never Lose Another Bash Command Ever Again!</a></h1>
+    <a href="http://localhost:1313/posts/bash-history/">Never Lose Another Bash Command Ever Again!</a></h1>
   <div class="post-meta">
       
     <span class="post-date">
@@ -127,9 +139,9 @@
   
   <span class="post-tags">
     
-    #<a href="https://marinhero.com/tags/bash/">bash</a>&nbsp;
+    #<a href="http://localhost:1313/tags/bash/">bash</a>&nbsp;
     
-    #<a href="https://marinhero.com/tags/tooling/">tooling</a>&nbsp;
+    #<a href="http://localhost:1313/tags/tooling/">tooling</a>&nbsp;
     
   </span>
   
@@ -147,7 +159,7 @@
 <li><code>&gt;&gt; ~/.logs/bash-history-$(date &quot;+%Y-%m-%d&quot;).log;</code>: Append the result of the command to a file stored in <code>~/.logs</code> and is organized by date.</li>
 </ul>
 <p>What I like the most about this is that files are organized by date. This makes it easy to search for commands. For example, let’s say that I’m going back to work on a Git repository that I worked on nine months ago. I need to run a command that made my local build pass and nine months ago I found the fix after troubleshooting for an hour. Today I don’t remember that command! All I remember about it is that it had an <code>“add_missing”</code> somewhere. With the local logs I just created I can cd into the .logs directory and  run <a href="https://github.com/ggreer/the_silver_searcher">the silver searcher (ag)</a> like this:</p>
-<p><a href="https://asciinema.org/a/372356"><img src="https://asciinema.org/a/372356.svg" alt="asciicast"></a></p>
+<p><a href="https://asciinema.org/a/372356"><img alt="asciicast" src="https://asciinema.org/a/372356.svg"></a></p>
 <p>And boom! I’ll get all the commands that match that pattern and I’m swiftly back on track to my work. Useful, right?</p>
 <h1 id="installation">Installation<a href="#installation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p>If you want to use this on your computer all you need to do are these two things:</p>
@@ -172,13 +184,13 @@
   <div class="pagination">
     <div class="pagination__title">
       <span
-        class="pagination__title-h">Read other posts</span>
+        class="pagination__title-h"></span>
       <hr />
     </div>
     <div class="pagination__buttons">
       
       <span class="button previous">
-        <a href="https://marinhero.com/posts/typescript-tetris/">
+        <a href="http://localhost:1313/posts/typescript-tetris/">
           <span class="button__icon">←</span>
           <span class="button__text">Tetris, in TypeScript</span>
         </a>
@@ -186,7 +198,7 @@
       
       
       <span class="button next">
-        <a href="https://marinhero.com/posts/architectures/">
+        <a href="http://localhost:1313/posts/architectures/">
           <span class="button__text">x86, x64, ARM? I Just Want to Download my Program!</span>
           <span class="button__icon">→</span>
         </a>
@@ -207,6 +219,7 @@
   <div class="footer__inner">
     
       <div class="copyright">
+        <img src="https://img.shields.io/badge/written%20by%20a%20human-23B0FF">
         <span><script async defer src="https://www.recurse-scout.com/loader.js?t=07b8b390c492482130bcc37bffdd507b"></script></span>
       </div>
     
@@ -214,8 +227,8 @@
   </div>
 </footer>
 
-<script src="https://marinhero.com/assets/main.js"></script>
-<script src="https://marinhero.com/assets/prism.js"></script>
+<script src="http://localhost:1313/assets/main.js"></script>
+<script src="http://localhost:1313/assets/prism.js"></script>
 
 
 

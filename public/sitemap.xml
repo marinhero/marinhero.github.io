@@ -2,67 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://marinhero.com/posts/segment-internship/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-07-07T16:50:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-07T16:50:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/mt-diablo/</loc>
+    <lastmod>2024-07-07T16:50:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/photo/</loc>
+    <lastmod>2024-07-07T16:50:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/photos/</loc>
+    <lastmod>2024-07-07T16:50:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/photos/</loc>
+    <lastmod>2024-07-07T16:50:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-07T16:50:38-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/rpe-max/</loc>
+    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deno/</loc>
+    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/denoflare/</loc>
+    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ios-shortcuts/</loc>
+    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/typescript/</loc>
+    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/weightlifting/</loc>
+    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/segment-internship/</loc>
     <lastmod>2022-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/internship/</loc>
+    <loc>http://localhost:1313/tags/internship/</loc>
     <lastmod>2022-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/</loc>
+    <loc>http://localhost:1313/tags/mentorship/</loc>
     <lastmod>2022-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/mentorship/</loc>
+    <loc>http://localhost:1313/tags/segment/</loc>
     <lastmod>2022-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/posts/</loc>
-    <lastmod>2022-09-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/tags/segment/</loc>
-    <lastmod>2022-09-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/tags/</loc>
-    <lastmod>2022-09-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/tags/gaming/</loc>
+    <loc>http://localhost:1313/tags/gaming/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/posts/typescript-tetris/</loc>
+    <loc>http://localhost:1313/posts/typescript-tetris/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/typescript/</loc>
+    <loc>http://localhost:1313/tags/web/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/web/</loc>
-    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/tags/bash/</loc>
+    <loc>http://localhost:1313/tags/bash/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/posts/bash-history/</loc>
+    <loc>http://localhost:1313/posts/bash-history/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/tooling/</loc>
+    <loc>http://localhost:1313/tags/tooling/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/computer-architecture/</loc>
+    <loc>http://localhost:1313/tags/computer-architecture/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/posts/architectures/</loc>
+    <loc>http://localhost:1313/posts/architectures/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/golang/</loc>
+    <loc>http://localhost:1313/tags/golang/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/tags/information-security/</loc>
+    <loc>http://localhost:1313/tags/information-security/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/posts/port-scanning/</loc>
+    <loc>http://localhost:1313/posts/port-scanning/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://marinhero.com/pages/marin/</loc>
+    <loc>http://localhost:1313/pages/marin/</loc>
   </url><url>
-    <loc>https://marinhero.com/categories/</loc>
-  </url><url>
-    <loc>https://marinhero.com/pages/</loc>
+    <loc>http://localhost:1313/pages/</loc>
   </url>
 </urlset>

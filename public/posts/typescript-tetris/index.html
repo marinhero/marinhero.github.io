@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>Tetris, in TypeScript :: Marín&#39;s - Blog</title>
   
@@ -10,23 +10,26 @@
 The TypeScript Lesson I did get more familiar with TypeScript, some of its strengths, caveats and tooling."/>
 <meta name="keywords" content="TypeScript, Tetris"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="https://marinhero.com/posts/typescript-tetris/" />
+<link rel="canonical" href="http://localhost:1313/posts/typescript-tetris/" />
+
+
+  
 
 
 
 
-<link rel="stylesheet" href="https://marinhero.com/assets/style.css">
+<link rel="stylesheet" href="http://localhost:1313/assets/style.css">
 
-  <link rel="stylesheet" href="https://marinhero.com/assets/blue.css">
-
-
+  <link rel="stylesheet" href="http://localhost:1313/assets/blue.css">
 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://marinhero.com/img/apple-touch-icon-144-precomposed.png">
 
-<link rel="shortcut icon" href="https://marinhero.com/img/favicon/blue.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:1313/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="http://localhost:1313/img/favicon/blue.png">
 
 
 
@@ -34,7 +37,7 @@ The TypeScript Lesson I did get more familiar with TypeScript, some of its stren
 <meta name="twitter:title" content="Tetris, in TypeScript :: Marín&#39;s - Blog — " />
 <meta name="twitter:description" content="With the intention of getting more familiarized with TypeScript, I decided to start a new project. It&amp;rsquo;s been many years since the last time I made a game from scrath so it seemed fitting to give that a go. I chose Tetris because it&amp;rsquo;s a well known game, with a defined set of problems and functionality. All I had to worry about was to code their solutions.
 The TypeScript Lesson I did get more familiar with TypeScript, some of its strengths, caveats and tooling." />
-<meta name="twitter:site" content="https://marinhero.com/" />
+<meta name="twitter:site" content="http://localhost:1313/" />
 <meta name="twitter:creator" content="Marín" />
 <meta name="twitter:image" content="">
 
@@ -44,7 +47,7 @@ The TypeScript Lesson I did get more familiar with TypeScript, some of its stren
 <meta property="og:title" content="Tetris, in TypeScript :: Marín&#39;s - Blog — ">
 <meta property="og:description" content="With the intention of getting more familiarized with TypeScript, I decided to start a new project. It&amp;rsquo;s been many years since the last time I made a game from scrath so it seemed fitting to give that a go. I chose Tetris because it&amp;rsquo;s a well known game, with a defined set of problems and functionality. All I had to worry about was to code their solutions.
 The TypeScript Lesson I did get more familiar with TypeScript, some of its strengths, caveats and tooling." />
-<meta property="og:url" content="https://marinhero.com/posts/typescript-tetris/" />
+<meta property="og:url" content="http://localhost:1313/posts/typescript-tetris/" />
 <meta property="og:site_name" content="Tetris, in TypeScript" />
 <meta property="og:image" content="">
 <meta property="og:image:width" content="2048">
@@ -60,7 +63,8 @@ The TypeScript Lesson I did get more familiar with TypeScript, some of its stren
 
 
 
-<link rel="stylesheet" href="https://marinhero.com/marin.css">
+<link rel="stylesheet" href="http://localhost:1313/marin.css">
+
 
 </head>
 <body class="">
@@ -89,6 +93,10 @@ The TypeScript Lesson I did get more familiar with TypeScript, some of its stren
           <li><a href="/pages/marin">About</a></li>
         
       
+        
+          <li><a href="/photos">Photos</a></li>
+        
+      
       
     
 
@@ -99,6 +107,10 @@ The TypeScript Lesson I did get more familiar with TypeScript, some of its stren
     
       
         <li><a href="/pages/marin">About</a></li>
+      
+    
+      
+        <li><a href="/photos">Photos</a></li>
       
     
     
@@ -113,7 +125,7 @@ The TypeScript Lesson I did get more familiar with TypeScript, some of its stren
     
 <div class="post">
   <h1 class="post-title">
-    <a href="https://marinhero.com/posts/typescript-tetris/">Tetris, in TypeScript</a></h1>
+    <a href="http://localhost:1313/posts/typescript-tetris/">Tetris, in TypeScript</a></h1>
   <div class="post-meta">
       
     <span class="post-date">
@@ -130,11 +142,11 @@ The TypeScript Lesson I did get more familiar with TypeScript, some of its stren
   
   <span class="post-tags">
     
-    #<a href="https://marinhero.com/tags/typescript/">TypeScript</a>&nbsp;
+    #<a href="http://localhost:1313/tags/typescript/">TypeScript</a>&nbsp;
     
-    #<a href="https://marinhero.com/tags/gaming/">Gaming</a>&nbsp;
+    #<a href="http://localhost:1313/tags/gaming/">Gaming</a>&nbsp;
     
-    #<a href="https://marinhero.com/tags/web/">Web</a>&nbsp;
+    #<a href="http://localhost:1313/tags/web/">Web</a>&nbsp;
     
   </span>
   
@@ -182,20 +194,20 @@ I chose Tetris because it&rsquo;s a well known game, with a defined set of probl
 </span></span></code></pre></div><p>I enjoyed working on this function because I had to keep track of how the Tetris piece was moving on every iteration at the cell level. It also forced me to initialize the <code>rots</code> array with a <code>BlankPiece</code>. This is an object that <code>extends Piece</code>. Initializations of the same type aren&rsquo;t required in JavaScript but they are in TypeScript. It was a nice reminder that I had to think about the type system once again.</p>
 <h1 id="demo">Demo<a href="#demo" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p>Game available <a href="https://marinhero.com/tsetris/">here</a> (limited mobile support because that was out of the scope 😆)</p>
-<p><img src="https://github.com/marinhero/tsetris/raw/master/dist/demo.gif" alt="Tetris"></p>
+<p><img alt="Tetris" src="https://github.com/marinhero/tsetris/raw/master/dist/demo.gif"></p>
 
       </div></div>
   
   <div class="pagination">
     <div class="pagination__title">
       <span
-        class="pagination__title-h">Read other posts</span>
+        class="pagination__title-h"></span>
       <hr />
     </div>
     <div class="pagination__buttons">
       
       <span class="button previous">
-        <a href="https://marinhero.com/posts/segment-internship/">
+        <a href="http://localhost:1313/posts/segment-internship/">
           <span class="button__icon">←</span>
           <span class="button__text">Do’s and don’ts for a successful SDE internship</span>
         </a>
@@ -203,7 +215,7 @@ I chose Tetris because it&rsquo;s a well known game, with a defined set of probl
       
       
       <span class="button next">
-        <a href="https://marinhero.com/posts/bash-history/">
+        <a href="http://localhost:1313/posts/bash-history/">
           <span class="button__text">Never Lose Another Bash Command Ever Again!</span>
           <span class="button__icon">→</span>
         </a>
@@ -224,6 +236,7 @@ I chose Tetris because it&rsquo;s a well known game, with a defined set of probl
   <div class="footer__inner">
     
       <div class="copyright">
+        <img src="https://img.shields.io/badge/written%20by%20a%20human-23B0FF">
         <span><script async defer src="https://www.recurse-scout.com/loader.js?t=07b8b390c492482130bcc37bffdd507b"></script></span>
       </div>
     
@@ -231,8 +244,8 @@ I chose Tetris because it&rsquo;s a well known game, with a defined set of probl
   </div>
 </footer>
 
-<script src="https://marinhero.com/assets/main.js"></script>
-<script src="https://marinhero.com/assets/prism.js"></script>
+<script src="http://localhost:1313/assets/main.js"></script>
+<script src="http://localhost:1313/assets/prism.js"></script>
 
 
 

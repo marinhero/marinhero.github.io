@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bash on Marín&#39;s - Blog</title>
-    <link>https://marinhero.com/tags/bash/</link>
-    <description>Recent content in bash on Marín&#39;s - Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <title>Bash on Marín&#39;s - Blog</title>
+    <link>http://localhost:1313/tags/bash/</link>
+    <description>Recent content in Bash on Marín&#39;s - Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Never Lose Another Bash Command Ever Again!</title>
-      <link>https://marinhero.com/posts/bash-history/</link>
+      <link>http://localhost:1313/posts/bash-history/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/posts/bash-history/</guid>
+      <guid>http://localhost:1313/posts/bash-history/</guid>
       <description>Every once in awhile, I would find a Bash shell command that gets me out of a big problem. After hours of troubleshooting, I would find THE command, run it, and then I would move on and forget about that command. The next time I faced the same issue, I might remember the command, but if not I would try to get it from my Bash history using the command:$&amp;gt; history.</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,109 +2,123 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Marín&#39;s - Blog</title>
-    <link>https://marinhero.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Marín&#39;s - Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 20 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jul 2024 16:50:38 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Internship</title>
-      <link>https://marinhero.com/tags/internship/</link>
-      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/internship/</guid>
+      <title>Photo</title>
+      <link>http://localhost:1313/tags/photo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/photo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Mentorship</title>
-      <link>https://marinhero.com/tags/mentorship/</link>
-      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/mentorship/</guid>
+      <title>Deno</title>
+      <link>http://localhost:1313/tags/deno/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deno/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Segment</title>
-      <link>https://marinhero.com/tags/segment/</link>
-      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/segment/</guid>
+      <title>DenoFlare</title>
+      <link>http://localhost:1313/tags/denoflare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/denoflare/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Gaming</title>
-      <link>https://marinhero.com/tags/gaming/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/gaming/</guid>
+      <title>IOS Shortcuts</title>
+      <link>http://localhost:1313/tags/ios-shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ios-shortcuts/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TypeScript</title>
-      <link>https://marinhero.com/tags/typescript/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/typescript/</guid>
+      <link>http://localhost:1313/tags/typescript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/typescript/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Weightlifting</title>
+      <link>http://localhost:1313/tags/weightlifting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/weightlifting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internship</title>
+      <link>http://localhost:1313/tags/internship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/internship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mentorship</title>
+      <link>http://localhost:1313/tags/mentorship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mentorship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Segment</title>
+      <link>http://localhost:1313/tags/segment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/segment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaming</title>
+      <link>http://localhost:1313/tags/gaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gaming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Web</title>
-      <link>https://marinhero.com/tags/web/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/web/</guid>
+      <link>http://localhost:1313/tags/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bash</title>
-      <link>https://marinhero.com/tags/bash/</link>
-      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/bash/</guid>
+      <title>Bash</title>
+      <link>http://localhost:1313/tags/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bash/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tooling</title>
-      <link>https://marinhero.com/tags/tooling/</link>
-      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/tooling/</guid>
+      <title>Tooling</title>
+      <link>http://localhost:1313/tags/tooling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tooling/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Computer Architecture</title>
-      <link>https://marinhero.com/tags/computer-architecture/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/computer-architecture/</guid>
+      <link>http://localhost:1313/tags/computer-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/computer-architecture/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Golang</title>
-      <link>https://marinhero.com/tags/golang/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/golang/</guid>
+      <link>http://localhost:1313/tags/golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/golang/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Information-Security</title>
-      <link>https://marinhero.com/tags/information-security/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://marinhero.com/tags/information-security/</guid>
+      <link>http://localhost:1313/tags/information-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/information-security/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -4,9 +4,9 @@ title = "Marin Alcaraz"
 theme = ["marin", "terminal"]
 
 [params]
-  contentTypeName = "posts"
+  mainSections = ["posts", "photo"]
   themeColor = "blue" # ["orange", "blue", "red", "green", "pink"]
-  showMenuItems = 2
+  showMenuItems = 3
   showLanguageSelector = false
   fullWidthTheme = false
   centerTheme = true
@@ -15,16 +15,6 @@ theme = ["marin", "terminal"]
   [languages.en]
     languageName = "English"
     title = "Marín's - Blog"
-    subtitle = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [params.twitter]
-      creator = "marinftw"
-      site = "https://marinhero.com"
 
     [languages.en.params.logo]
       logoText = "Marín Alcaraz"
@@ -35,8 +25,7 @@ theme = ["marin", "terminal"]
         identifier = "about"
         name = "About"
         url = "/pages/marin"
-      # [[languages.en.menu.main]]
-      #   identifier = "projects"
-      #   name = "Projects"
-      #   url = "/projects"
-      # On hold till I finish the cleanup
+      [[languages.en.menu.main]]
+        identifier = "photos"
+        name = "Photos"
+        url = "/photos"
