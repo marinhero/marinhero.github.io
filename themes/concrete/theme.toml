@@ -1,0 +1,11 @@
+name = "Concrete"
+license = "MIT"
+licenselink = "https://github.com/marinhero/marinhero.github.io/blob/main/LICENSE"
+description = "A minimal, monochrome Hugo theme inspired by concrete, steel, and brutalist design"
+tags = ["minimal", "monochrome", "responsive", "clean", "simple", "blog"]
+features = ["responsive", "fast", "accessible", "minimal"]
+min_version = "0.100.0"
+
+[author]
+  name = "Marin Alcaraz"
+  homepage = "https://marinhero.com"

@@ -1,0 +1,19 @@
+<header class="header" role="banner">
+  <div class="header-inner">
+    <h1 class="site-title">
+      <a href="{{ "/" | absURL }}" aria-label="Home">
+        {{- .Site.Params.logo.logoText | default .Site.Title -}}
+      </a>
+    </h1>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      {{- $currentPage := . -}}
+      {{- range .Site.Menus.main -}}
+        <a href="{{ .URL | absURL }}"
+           {{- if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end -}}>
+          {{ .Name }}
+        </a>
+      {{- end -}}
+    </nav>
+  </div>
+</header>

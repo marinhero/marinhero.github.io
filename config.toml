@@ -1,42 +1,83 @@
 baseURL = "https://marinhero.com/"
 languageCode = "en-us"
 title = "Marin Alcaraz"
-theme = ["marin", "terminal"]
+theme = "concrete"
 
+# Main sections for the blog
 [params]
-  contentTypeName = "posts"
-  themeColor = "blue" # ["orange", "blue", "red", "green", "pink"]
-  showMenuItems = 2
-  showLanguageSelector = false
-  fullWidthTheme = false
-  centerTheme = true
+  mainSections = ["posts"]
+  author = "Marin Alcaraz"
+  description = "Thoughts on software engineering, systems, and technology"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Marín's - Blog"
-    subtitle = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
+  [params.logo]
+    logoText = "Marín Alcaraz"
 
-    [params.twitter]
-      creator = "marinftw"
-      site = "https://marinhero.com"
+  [params.twitter]
+    creator = "marinftw"
+    site = "https://marinhero.com"
 
-    [languages.en.params.logo]
-      logoText = "Marín Alcaraz"
-      logoHomeLink = "/"
+# Site configuration
+enableRobotsTXT = true
+enableGitInfo = true
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/pages/marin"
-      # [[languages.en.menu.main]]
-      #   identifier = "projects"
-      #   name = "Projects"
-      #   url = "/projects"
-      # On hold till I finish the cleanup
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Minification
+[minify]
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
+  disableJSON = false
+  disableXML = false
+  minifyOutput = true
+
+# Menu
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/pages/marin"
+  weight = 1
+
+# [[menu.main]]
+#   identifier = "projects"
+#   name = "Projects"
+#   url = "/projects"
+#   weight = 2
+
+# Markup configuration
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+# Privacy configuration
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="list-page">
+  {{- if not .IsHome -}}
+  <header class="list-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description -}}
+      <p>{{ .Description }}</p>
+    {{- end -}}
+  </header>
+  {{- end -}}
+
+  {{- $pages := .Pages -}}
+  {{- if .IsHome -}}
+    {{- $pages = where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+  {{- end -}}
+
+  {{- if gt (len $pages) 0 -}}
+  <ul class="post-list">
+    {{- range $pages -}}
+    <li class="post-item">
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        {{- if .Params.author -}}
+          <span> • </span>
+          <span>{{ .Params.author }}</span>
+        {{- end -}}
+      </div>
+      <h2 class="post-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      {{- if .Summary -}}
+      <div class="post-summary">
+        {{ .Summary }}
+      </div>
+      {{- end -}}
+      <a href="{{ .Permalink }}" class="read-more">Read More →</a>
+    </li>
+    {{- end -}}
+  </ul>
+  {{- else -}}
+  <p>No posts found.</p>
+  {{- end -}}
+
+  {{- template "_internal/pagination.html" . -}}
+</div>
+{{ end }}

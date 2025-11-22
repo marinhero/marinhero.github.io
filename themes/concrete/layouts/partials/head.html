@@ -1,0 +1,92 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+  {{- $title = .Site.Title -}}
+{{- else if .Title -}}
+  {{- $title = printf "%s | %s" .Title .Site.Title -}}
+{{- end -}}
+<title>{{ $title }}</title>
+
+{{- if .Description -}}
+<meta name="description" content="{{ .Description }}">
+{{- else if .IsHome -}}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{- else if .Summary -}}
+<meta name="description" content="{{ .Summary | plainify | truncate 160 }}">
+{{- end -}}
+
+{{- if .Keywords -}}
+<meta name="keywords" content="{{ delimit .Keywords ", " }}">
+{{- else if .Params.tags -}}
+<meta name="keywords" content="{{ delimit .Params.tags ", " }}">
+{{- end -}}
+
+<meta name="author" content="{{ .Params.author | default .Site.Params.author | default .Site.Title }}">
+
+{{- if .Permalink -}}
+<link rel="canonical" href="{{ .Permalink }}">
+{{- end -}}
+
+{{- with .OutputFormats.Get "RSS" -}}
+<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+{{- end -}}
+
+{{- /* Open Graph */ -}}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+{{- if .Permalink -}}
+<meta property="og:url" content="{{ .Permalink }}">
+{{- end -}}
+{{- if .Description -}}
+<meta property="og:description" content="{{ .Description }}">
+{{- else if .Summary -}}
+<meta property="og:description" content="{{ .Summary | plainify | truncate 160 }}">
+{{- end -}}
+{{- if .Params.image -}}
+<meta property="og:image" content="{{ .Params.image | absURL }}">
+{{- end -}}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+{{- /* Twitter Card */ -}}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $title }}">
+{{- if .Description -}}
+<meta name="twitter:description" content="{{ .Description }}">
+{{- else if .Summary -}}
+<meta name="twitter:description" content="{{ .Summary | plainify | truncate 160 }}">
+{{- end -}}
+{{- with .Site.Params.twitter.creator -}}
+<meta name="twitter:creator" content="@{{ . }}">
+{{- end -}}
+{{- with .Site.Params.twitter.site -}}
+<meta name="twitter:site" content="{{ . }}">
+{{- end -}}
+
+{{- /* Styles */ -}}
+{{- $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+
+{{- /* Favicon */ -}}
+<link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">
+
+{{- /* RSS Feed */ -}}
+{{ range .AlternativeOutputFormats }}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end }}
+
+{{- /* Theme color for mobile browsers */ -}}
+<meta name="theme-color" content="#1a1a1a">
+
+{{- /* Security headers hint */ -}}
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+<meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+{{- /* Preload critical fonts */ -}}
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{{- /* Extended head partial for custom additions */ -}}
+{{ partial "extended_head.html" . }}
