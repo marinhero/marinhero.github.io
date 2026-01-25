@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Marín's - Blog</title><link>https://marinhero.com/pages/</link><description>Recent content in Pages on Marín's - Blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://marinhero.com/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>About me</title><link>https://marinhero.com/pages/marin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marinhero.com/pages/marin/</guid><description>&lt;p>Hello! I&amp;rsquo;m Marín Alcaraz. I work as a Staff Software Engineer for &lt;a href="https://segment.com">Twilio - Segment&lt;/a>.&lt;/p>
-&lt;p>I studied Computer Systems Engineering at &lt;a href="https://tec.mx">ITESM&lt;/a> with a brief, but awesome stint at &lt;a href="http://www.epitech.eu">EPITECH&lt;/a>.&lt;/p>
-&lt;p>After, college I went to the &lt;a href="https://recurse.com">Recurse Center&lt;/a> and had the time of my life building cool software projects, like a Dropbox clone or my own ad-blocker.&lt;/p>
-&lt;p>I moved to The Bay Area in 2015 to join Wootric as their 2nd hire. I worked there as a Software Engineer until the company was acquired in 2020.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Marín's - Blog</title><link>https://marinhero.com/pages/</link><description>Recent content in Pages on Marín's - Blog</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://marinhero.com/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://marinhero.com/pages/marin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marinhero.com/pages/marin/</guid><description>&lt;p&gt;Hey! I&amp;rsquo;m Marín Alcaraz. I care about clean design, well-crafted APIs, and tools that feel good to use.&lt;/p&gt;
+&lt;h2 id="currently"&gt;Currently&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Staff Engineer at &lt;a href="https://segment.com"&gt;Twilio - Segment&lt;/a&gt;, designing APIs for enterprise data delivery&lt;/li&gt;
+&lt;li&gt;Exploring AI-assisted development workflows&lt;/li&gt;
+&lt;li&gt;Mentoring engineers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="background"&gt;Background&lt;/h2&gt;
+&lt;p&gt;I studied Computer Systems Engineering at &lt;a href="https://tec.mx"&gt;ITESM&lt;/a&gt; with a brief but awesome stint at &lt;a href="http://www.epitech.eu"&gt;EPITECH&lt;/a&gt; in France.&lt;/p&gt;
+&lt;p&gt;After college I went to the &lt;a href="https://recurse.com"&gt;Recurse Center&lt;/a&gt; and had the time of my life building projects like a Dropbox clone and my own ad-blocker.&lt;/p&gt;</description></item><item><title>Projects</title><link>https://marinhero.com/pages/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marinhero.com/pages/projects/</guid><description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://marinhero.com/tsetris/"&gt;Tsetris&lt;/a&gt;&lt;/strong&gt; — Tetris clone built in TypeScript with HTML Canvas. Features custom rotation algorithm for any piece shape. &lt;a href="https://github.com/marinhero/tsetris"&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/marinhero/rpemax"&gt;RPE Max Calculator&lt;/a&gt;&lt;/strong&gt; — Deno/Denoflare API that calculates weightlifting set weights based on RPE, one rep max, and set count. Integrated with iOS Shortcuts for gym use.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
