@@ -1,0 +1,7 @@
+<div class="photo-gallery">
+    {{ range split (.Get "images") "," }}
+    <div class="gallery-item">
+        <img src="{{ trim . " " }}" alt="" loading="lazy">
+    </div>
+    {{ end }}
+</div>

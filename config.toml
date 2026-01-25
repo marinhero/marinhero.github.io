@@ -1,15 +1,12 @@
 baseURL = "https://marinhero.com/"
 languageCode = "en-us"
-title = "Marin Alcaraz"
-theme = ["marin", "terminal"]
+title = "Marín Alcaraz"
+theme = "clarity"
 
 [params]
-  contentTypeName = "posts"
-  themeColor = "blue" # ["orange", "blue", "red", "green", "pink"]
-  showMenuItems = 2
-  showLanguageSelector = false
-  fullWidthTheme = false
-  centerTheme = true
+  description = "Software engineer, writer, and thinker. Writing about technology, systems, and ideas."
+  mainSections = ["posts"]
+  copyright = "Marín Alcaraz"
 
 [languages]
   [languages.en]
@@ -30,13 +27,22 @@ theme = ["marin", "terminal"]
       logoText = "Marín Alcaraz"
       logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/pages/marin"
-      # [[languages.en.menu.main]]
-      #   identifier = "projects"
-      #   name = "Projects"
-      #   url = "/projects"
-      # On hold till I finish the cleanup
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/pages/marin"
+    weight = 1
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/pages/projects"
+    weight = 2

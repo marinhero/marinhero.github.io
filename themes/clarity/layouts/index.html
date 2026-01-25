@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="post-table">
+    {{ $posts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ range $posts }}
+    <a href="{{ .RelPermalink }}" class="table-row">
+        <span class="col-date">{{ .Date.Format "2006-01-02" }}</span>
+        <span class="col-title">{{ .Title }}</span>
+    </a>
+    {{ end }}
+</div>
+{{ end }}

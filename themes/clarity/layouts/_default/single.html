@@ -1,0 +1,40 @@
+{{ define "main" }}
+<article class="post">
+    <header class="post-header">
+        <h1>{{ .Title }}</h1>
+        {{ if eq .Section "posts" }}
+        <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ with .Params.tags }}
+            <span class="tags">
+                {{ range . }}
+                <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+                {{ end }}
+            </span>
+            {{ end }}
+        </div>
+        {{ end }}
+    </header>
+
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+
+    {{ if and (eq .Section "posts") (or .NextInSection .PrevInSection) }}
+    <nav class="post-nav">
+        {{ with .PrevInSection }}
+        <div class="post-nav-prev">
+            <span class="post-nav-label">← Previous</span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+        {{ end }}
+        {{ with .NextInSection }}
+        <div class="post-nav-next">
+            <span class="post-nav-label">Next →</span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+        {{ end }}
+    </nav>
+    {{ end }}
+</article>
+{{ end }}

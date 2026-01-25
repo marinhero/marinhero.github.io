@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:themes.gohugo.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(git submodule add:*)",
+      "Bash(hugo version:*)",
+      "Bash(brew info:*)",
+      "Bash(asdf list:*)",
+      "Bash(asdf install:*)",
+      "Bash(asdf global:*)",
+      "Bash(brew install:*)",
+      "Bash(/opt/homebrew/bin/hugo version)",
+      "Bash(hugo:*)",
+      "Skill(superpowers:brainstorming)",
+      "Bash(curl:*)",
+      "WebFetch(domain:campedersen.com)",
+      "Bash(/Applications/Google\\\\ Chrome.app/Contents/MacOS/Google\\\\ Chrome:*)",
+      "Bash(pkill:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

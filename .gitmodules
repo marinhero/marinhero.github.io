@@ -1,0 +1,9 @@
+[submodule "themes/hugo-brewm"]
+	path = themes/hugo-brewm
+	url = https://github.com/foxihd/hugo-brewm
+[submodule "themes/somestyleplease"]
+	path = themes/somestyleplease
+	url = https://github.com/jkkNl/somestyleplease
+[submodule "themes/hugo-theme-tokiwa"]
+	path = themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git

@@ -1,0 +1,9 @@
+name = "Clarity"
+license = "MIT"
+description = "A minimal, typography-focused Hugo theme with excellent readability"
+tags = ["blog", "minimal", "clean", "typography", "responsive", "dark-mode"]
+min_version = "0.135.0"
+
+[author]
+  name = "Marin Alcaraz"
+  homepage = "https://marinhero.com"

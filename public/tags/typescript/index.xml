@@ -4,18 +4,23 @@
     <title>TypeScript on Marín&#39;s - Blog</title>
     <link>https://marinhero.com/tags/typescript/</link>
     <description>Recent content in TypeScript on Marín&#39;s - Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marinhero.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://marinhero.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculate your One Rep Max Easily using Deno, Denoflare and iOS Shortcuts</title>
+      <link>https://marinhero.com/posts/rpe-max/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/posts/rpe-max/</guid>
+      <description>&lt;h2 id=&#34;what-is-this&#34;&gt;What is this?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/marinhero/rpemax&#34;&gt;This&lt;/a&gt; is a program that automates the process we follow at my gym to calculate the weight we should lift in our sets based on our RPE, one rep max, and set count.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-rpe&#34;&gt;What is RPE?&lt;/h2&gt;&#xA;&lt;p&gt;RPE stands for Rate of Perceived Exertion. It is a subjective measure used to gauge the intensity of exercise or physical activity, based on an individual&amp;rsquo;s personal perception of how hard they feel they are working.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tetris, in TypeScript</title>
       <link>https://marinhero.com/posts/typescript-tetris/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://marinhero.com/posts/typescript-tetris/</guid>
-      <description>With the intention of getting more familiarized with TypeScript, I decided to start a new project. It&amp;rsquo;s been many years since the last time I made a game from scrath so it seemed fitting to give that a go. I chose Tetris because it&amp;rsquo;s a well known game, with a defined set of problems and functionality. All I had to worry about was to code their solutions.
-The TypeScript Lesson I did get more familiar with TypeScript, some of its strengths, caveats and tooling.</description>
+      <description>&lt;p&gt;With the intention of getting more familiarized with TypeScript, I decided to start a new project.&#xA;It&amp;rsquo;s been many years since the last time I made a game from scrath so it seemed fitting to give that a go.&#xA;I chose Tetris because it&amp;rsquo;s a well known game, with a defined set of problems and functionality. All I had to worry about was to code their solutions.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-typescript-lesson&#34;&gt;The TypeScript Lesson&lt;/h1&gt;&#xA;&lt;p&gt;I did get more familiar with TypeScript, some of its strengths, caveats and tooling. Still, it would be hard (or overengineered) to cover all of the language features in a project. One important feature I left out is &lt;a href=&#34;https://www.typescriptlang.org/docs/handbook/2/generics.html&#34;&gt;generics&lt;/a&gt;, perhaps I need to start working on &lt;a href=&#34;https://en.wikipedia.org/wiki/Space_Invaders&#34;&gt;Space Invaders&lt;/a&gt; now so I can give it a try?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

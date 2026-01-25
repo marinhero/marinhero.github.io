@@ -1,0 +1,24 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+            </h1>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    <li>
+                        <button id="theme-toggle" aria-label="Toggle dark mode">
+                            <span class="theme-icon">◐</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

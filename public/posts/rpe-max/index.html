@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a program that automates the process we follow at my gym to calculate the weight we should lift in our sets based on our RPE, one rep max, and set count.">
+    <title>Calculate your One Rep Max Easily using Deno, Denoflare and iOS Shortcuts - Marín&#39;s - Blog</title>
+    
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    
+    
+    <script>
+        const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    </script>
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="/">Marín&#39;s - Blog</a>
+            </h1>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="site-nav" id="site-nav">
+                <ul>
+                    
+                        <li><a href="/pages/marin">About</a></li>
+                    
+                        <li><a href="/pages/projects">Projects</a></li>
+                    
+                    <li>
+                        <button id="theme-toggle" aria-label="Toggle dark mode">
+                            <span class="theme-icon">◐</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+    <main class="container">
+        
+<article class="post">
+    <header class="post-header">
+        <h1>Calculate your One Rep Max Easily using Deno, Denoflare and iOS Shortcuts</h1>
+        
+        <div class="post-meta">
+            <time datetime="2023-03-05">March 5, 2023</time>
+            
+            <span class="tags">
+                
+                <a href="/tags/deno">#Deno</a>
+                
+                <a href="/tags/typescript">#TypeScript</a>
+                
+                <a href="/tags/ios-shortcuts">#iOS Shortcuts</a>
+                
+                <a href="/tags/denoflare">#DenoFlare</a>
+                
+                <a href="/tags/weightlifting">#Weightlifting</a>
+                
+            </span>
+            
+        </div>
+        
+    </header>
+
+    <div class="post-content">
+        <h2 id="what-is-this">What is this?</h2>
+<p><a href="https://github.com/marinhero/rpemax">This</a> is a program that automates the process we follow at my gym to calculate the weight we should lift in our sets based on our RPE, one rep max, and set count.</p>
+<h2 id="what-is-rpe">What is RPE?</h2>
+<p>RPE stands for Rate of Perceived Exertion. It is a subjective measure used to gauge the intensity of exercise or physical activity, based on an individual&rsquo;s personal perception of how hard they feel they are working.</p>
+<p>The RPE scale usually ranges from 1 to 10, where 1 represents a very light activity, and 10 represents an all-out maximal effort.</p>
+<h2 id="source-material">Source Material</h2>
+<p><img src="https://user-images.githubusercontent.com/316711/222936830-4f8e3b03-2abd-4873-bda4-5355fa054273.png" alt="From the shelves of Bay Strength" title="The Original Chart"></p>
+<h2 id="the-tech">The Tech</h2>
+<p>This project was made with TypeScript, Deno and Denoflare. Setup was a breeze, try them!</p>
+<p>I&rsquo;ve also set up an iOS shortcut to actually use this at the gym.</p>
+<!-- raw HTML omitted -->
+<h2 id="denoflare-server">Denoflare Server</h2>
+<p>Boot up the denoflare server by running the following command:</p>
+<div class="code-block">
+  <div class="code-header">
+    <span class="code-lang">sh</span>
+    <div class="code-dots">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="code-content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="ln">1</span><span class="cl">denoflare serve calculator</span></span></code></pre></div></div>
+</div>
+<p>Test your server by performing an HTTP request. Pass your params in the headers of the request.
+Passing the parameters makes this program easier to use with Apple Shortcuts.</p>
+<p>Example request:</p>
+<div class="code-block">
+  <div class="code-header">
+    <span class="code-lang">sh</span>
+    <div class="code-dots">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="code-content"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">## Get Weight</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">curl <span class="s2">&#34;http://localhost:3030/&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl">     -H <span class="s1">&#39;calculator_rpe: 8&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln">4</span><span class="cl">     -H <span class="s1">&#39;calculator_reps: 4&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln">5</span><span class="cl">     -H <span class="s1">&#39;calculator_weight: 155&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln">6</span><span class="cl">     -H <span class="s1">&#39;calculator_projected: 75&#39;</span></span></span></code></pre></div></div>
+</div>
+<h2 id="demo">Demo</h2>
+<p><img src="https://user-images.githubusercontent.com/316711/223004037-64ec2fc5-8009-463f-babc-5f78718ebd8c.gif" alt="demo"></p>
+
+    </div>
+
+    
+    <nav class="post-nav">
+        
+        <div class="post-nav-prev">
+            <span class="post-nav-label">← Previous</span>
+            <a href="/posts/segment-internship/">Do’s and don’ts for a successful SDE internship</a>
+        </div>
+        
+        
+    </nav>
+    
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2026 Marín&#39;s - Blog • Marín Alcaraz</p>
+        
+        <div class="rc-scout-wrapper"><div class="rc-scout" data-scout-rendered="true"><p class="rc-scout__text"><i class="rc-scout__logo"></i> Want to become a better programmer? <a class="rc-scout__link" href="https://www.recurse.com/scout/click?t=07b8b390c492482130bcc37bffdd507b">Join the Recurse Center!</a></p></div></div>
+    </div>
+</footer>
+<style type="text/css">.rc-scout { display: block; padding: 0; border: 0; margin: 1rem 0 0 0; } .rc-scout__text { display: block; padding: 0; border: 0; margin: 0; height: 100%; font-size: 0.8125rem; } .rc-scout__logo { display: inline-block; padding: 0; border: 0; margin: 0; width: 0.85em; height: 0.85em; background: no-repeat center url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2012%2015%22%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2212%22%20height%3D%2210%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%221%22%20y%3D%221%22%20width%3D%2210%22%20height%3D%228%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%222%22%20y%3D%222%22%20width%3D%228%22%20height%3D%226%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%222%22%20y%3D%223%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%233dc06c%22%3E%3C%2Frect%3E%3Crect%20x%3D%224%22%20y%3D%223%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%233dc06c%22%3E%3C%2Frect%3E%3Crect%20x%3D%226%22%20y%3D%223%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%233dc06c%22%3E%3C%2Frect%3E%3Crect%20x%3D%223%22%20y%3D%225%22%20width%3D%222%22%20height%3D%221%22%20fill%3D%22%233dc06c%22%3E%3C%2Frect%3E%3Crect%20x%3D%226%22%20y%3D%225%22%20width%3D%222%22%20height%3D%221%22%20fill%3D%22%233dc06c%22%3E%3C%2Frect%3E%3Crect%20x%3D%224%22%20y%3D%229%22%20width%3D%224%22%20height%3D%223%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%221%22%20y%3D%2211%22%20width%3D%2210%22%20height%3D%224%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%220%22%20y%3D%2212%22%20width%3D%2212%22%20height%3D%223%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%222%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%223%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%224%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%225%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%226%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%227%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%228%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%229%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3C%2Fsvg%3E'); } .rc-scout__link:link, .rc-scout__link:visited { color: #3dc06c; text-decoration: underline; } .rc-scout__link:hover, .rc-scout__link:active { color: #4e8b1d; }</style>
+
+
+    <script src="/js/theme.js"></script>
+</body>
+</html>
