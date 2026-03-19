@@ -6,8 +6,15 @@
     <description>Recent content in TypeScript on Marín&#39;s - Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marinhero.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Aquatic Music Pipeline</title>
+      <link>https://marinhero.com/posts/fluid/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/posts/fluid/</guid>
+      <description>&lt;p&gt;Nobody has MP3s anymore. Streaming won. But streaming doesn&amp;rsquo;t work underwater.&lt;/p&gt;&#xA;&lt;p&gt;I tried using my headphones via Bluetooth — they obviously didn&amp;rsquo;t work submerged. Not to mention the lifeguard reminding me that phones aren&amp;rsquo;t allowed near the pool: if the screen breaks, they have to drain the whole thing.&lt;/p&gt;&#xA;&lt;p&gt;Luckily my waterproof headphones have built-in storage — but they need actual files. So I built two things: &lt;strong&gt;Corriente&lt;/strong&gt; (Spanish for &lt;em&gt;current&lt;/em&gt;) pulls music from the stream, and &lt;strong&gt;Fluid&lt;/strong&gt; carries it to shore. Do other tools like these exist? Sure. But where&amp;rsquo;s the fun in that?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Calculate your One Rep Max Easily using Deno, Denoflare and iOS Shortcuts</title>
       <link>https://marinhero.com/posts/rpe-max/</link>

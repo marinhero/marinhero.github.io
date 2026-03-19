@@ -6,8 +6,15 @@
     <description>Recent content on Marín&#39;s - Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marinhero.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Aquatic Music Pipeline</title>
+      <link>https://marinhero.com/posts/fluid/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/posts/fluid/</guid>
+      <description>&lt;p&gt;Nobody has MP3s anymore. Streaming won. But streaming doesn&amp;rsquo;t work underwater.&lt;/p&gt;&#xA;&lt;p&gt;I tried using my headphones via Bluetooth — they obviously didn&amp;rsquo;t work submerged. Not to mention the lifeguard reminding me that phones aren&amp;rsquo;t allowed near the pool: if the screen breaks, they have to drain the whole thing.&lt;/p&gt;&#xA;&lt;p&gt;Luckily my waterproof headphones have built-in storage — but they need actual files. So I built two things: &lt;strong&gt;Corriente&lt;/strong&gt; (Spanish for &lt;em&gt;current&lt;/em&gt;) pulls music from the stream, and &lt;strong&gt;Fluid&lt;/strong&gt; carries it to shore. Do other tools like these exist? Sure. But where&amp;rsquo;s the fun in that?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Calculate your One Rep Max Easily using Deno, Denoflare and iOS Shortcuts</title>
       <link>https://marinhero.com/posts/rpe-max/</link>
@@ -58,11 +65,11 @@
       <description>&lt;p&gt;Hey! I&amp;rsquo;m Marín Alcaraz. I care about clean design, well-crafted APIs, and tools that feel good to use.&lt;/p&gt;&#xA;&lt;h2 id=&#34;currently&#34;&gt;Currently&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Staff Engineer at &lt;a href=&#34;https://segment.com&#34;&gt;Twilio - Segment&lt;/a&gt;, designing APIs for enterprise data delivery&lt;/li&gt;&#xA;&lt;li&gt;Exploring AI-assisted development workflows&lt;/li&gt;&#xA;&lt;li&gt;Mentoring engineers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;I studied Computer Systems Engineering at &lt;a href=&#34;https://tec.mx&#34;&gt;ITESM&lt;/a&gt; with a brief but awesome stint at &lt;a href=&#34;http://www.epitech.eu&#34;&gt;EPITECH&lt;/a&gt; in France.&lt;/p&gt;&#xA;&lt;p&gt;After college I went to the &lt;a href=&#34;https://recurse.com&#34;&gt;Recurse Center&lt;/a&gt; and had the time of my life building projects like a Dropbox clone and my own ad-blocker.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Projects</title>
+      <title>Projects / Toys</title>
       <link>https://marinhero.com/pages/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://marinhero.com/pages/projects/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://marinhero.com/tsetris/&#34;&gt;Tsetris&lt;/a&gt;&lt;/strong&gt; — Tetris clone built in TypeScript with HTML Canvas. Features custom rotation algorithm for any piece shape. &lt;a href=&#34;https://github.com/marinhero/tsetris&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/marinhero/rpemax&#34;&gt;RPE Max Calculator&lt;/a&gt;&lt;/strong&gt; — Deno/Denoflare API that calculates weightlifting set weights based on RPE, one rep max, and set count. Integrated with iOS Shortcuts for gym use.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;toys&#34;&gt;Toys&lt;/h2&gt;&#xA;&lt;p&gt;Toys are something different from projects. A toy is a personal, improvised creation — sketched with code, mostly written by AI, shaped to solve a narrow need I have at the moment. They&amp;rsquo;re not meant to scale, not meant to impress. They&amp;rsquo;re the software equivalent of a doodle on a napkin: a private, single-use thing built for the enjoyment and utility of making it work for me. The Software Slop of some is the treasure of others. Source available upon request.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

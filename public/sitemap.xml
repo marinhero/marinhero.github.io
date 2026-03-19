@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://marinhero.com/posts/rpe-max/</loc>
-    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
+    <loc>https://marinhero.com/tags/ai/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://marinhero.com/tags/deno/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/tags/go/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/posts/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/tags/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/posts/fluid/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/tags/toys/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/tags/tui/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/tags/typescript/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://marinhero.com/posts/rpe-max/</loc>
     <lastmod>2023-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://marinhero.com/tags/denoflare/</loc>
     <lastmod>2023-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://marinhero.com/tags/ios-shortcuts/</loc>
-    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/</loc>
-    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/posts/</loc>
-    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/tags/</loc>
-    <lastmod>2023-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://marinhero.com/tags/typescript/</loc>
     <lastmod>2023-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://marinhero.com/tags/weightlifting/</loc>

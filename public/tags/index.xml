@@ -6,13 +6,48 @@
     <description>Recent content in Tags on Marín&#39;s - Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marinhero.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://marinhero.com/tags/ai/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/tags/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Deno</title>
       <link>https://marinhero.com/tags/deno/</link>
-      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://marinhero.com/tags/deno/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://marinhero.com/tags/go/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Toys</title>
+      <link>https://marinhero.com/tags/toys/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/tags/toys/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TUI</title>
+      <link>https://marinhero.com/tags/tui/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/tags/tui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript</title>
+      <link>https://marinhero.com/tags/typescript/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://marinhero.com/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +62,6 @@
       <link>https://marinhero.com/tags/ios-shortcuts/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://marinhero.com/tags/ios-shortcuts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TypeScript</title>
-      <link>https://marinhero.com/tags/typescript/</link>
-      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://marinhero.com/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
